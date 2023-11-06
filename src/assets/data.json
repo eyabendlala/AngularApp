@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "photo": "https://picsum.photos/id/1/200/200.jpg",
+      "author": "Author 1",
+      "text": "Lorem ipsum 1"
+    },
+    {
+      "id": 2,
+      "photo": "https://picsum.photos/id/2/200/200.jpg",
+      "author": "Author 2",
+      "text": "Lorem ipsum 2"
+    },
+    {
+      "id": 3,
+      "photo": "https://picsum.photos/id/3/200/200.jpg",
+      "author": "Author 3",
+      "text": "Lorem ipsum 3"
+    },
+    {
+      "id": 4,
+      "photo": "https://picsum.photos/id/4/200/200.jpg",
+      "author": "Author 4",
+      "text": "Lorem ipsum 4"
+    }
+  ]
+  

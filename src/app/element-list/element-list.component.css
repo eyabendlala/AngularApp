@@ -1,0 +1,46 @@
+/* image-list.component.css */
+
+/* Style for the container holding the images */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  /* Style for each image card */
+  .image-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for the image itself */
+  .image-card img {
+    max-width: 100%;
+    max-height: 200px; /* Set a maximum height to limit the image size */
+
+    height: auto;
+    border-radius: 8px;
+  }
+  
+img {
+    max-width: 300px; /* Set the maximum width you desire */
+    max-height: 200px; /* Set the maximum height you desire */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+
+  #loadingMessage {
+    position: absolute;
+    bottom: 0;
+  }
+  

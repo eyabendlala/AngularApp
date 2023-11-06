@@ -1,0 +1,9 @@
+<!-- image-detail.component.html -->
+<div *ngIf="image">
+    <h2>Image Details</h2>
+    <img [src]="image.download_url" alt="{{image.author}}" class="img">
+    <p>Author: {{image.author}}</p>
+    <p>Width: {{image.width}}</p>
+    <p>Height: {{image.height}}</p>
+  </div>
+  

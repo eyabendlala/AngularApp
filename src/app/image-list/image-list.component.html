@@ -1,0 +1,8 @@
+<!-- image-list.component.html -->
+<div *ngFor="let image of images">
+    <div (click)="navigateToImageDetail(image.id)">
+      <img [src]="image.download_url" alt="{{image.author}}" class="img">
+      <p>{{image.author}}</p>
+    </div>
+  </div>
+  

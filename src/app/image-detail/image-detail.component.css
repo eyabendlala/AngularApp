@@ -1,0 +1,7 @@
+img {
+    max-width: 300px; /* Set the maximum width you desire */
+    max-height: 200px; /* Set the maximum height you desire */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
